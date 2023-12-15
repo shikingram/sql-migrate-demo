@@ -1,0 +1,14 @@
+mysql: 
+  dbname: "test_db"
+  pool:
+    pool-min-cap: 10
+    pool-ex-cap: 5
+    pool-max-cap: 80
+    pool-idle-timeout: 3600
+    pool-wait-count: 1000
+    pool-wai-timeout: 30
+  write:
+    host: "127.0.0.1"
+    port: "3306"
+    user: "root"
+    password: "123"
